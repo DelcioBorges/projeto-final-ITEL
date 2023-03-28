@@ -19,11 +19,11 @@ return view('Admin.User.create.index');}
 
 public function store(Request $request){
 $request->validate([
-    'primeiro_nome'=>'required|min:3|max:40',
-    'ultimo_nome'=>'required|min:3|max:40',
-    'email'=>'required|email',
-    'foto'=>'image',
-    'perfil_acesso'=>'required'
+'primeiro_nome'=>'required|min:3|max:40',
+'ultimo_nome'=>'required|min:3|max:40',
+'email'=>'required|email',
+'foto'=>'image',
+'perfil_acesso'=>'required'
    
 
 
